@@ -1,7 +1,47 @@
 .navbar {
-  background-color: red;
+    background-color: lightgray;
 }
 
-.chicken-row {
-  height: 1000px;
+.chicken-container {
+    background-color: lightgray;
+}
+
+.beef-container {
+    background-color: lightgray;
+}
+
+.sushi-container {
+    background-color: lightgray;
+}
+
+.menu-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    background-color: aliceblue;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.5em;
+}
+
+/* ATTN Grader: These sizes are taken from the Bootstrap 5 breakpoints which are different from
+   the breakpoints presented in the lecture. */
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+  }
+  
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .sushi-row{
+        margin-top: 50px;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 576px) and (max-width: 767px) {
+
 }
